@@ -79,6 +79,7 @@ namespace AVPZ_Lab05
                                + Convert.ToDouble(SumCost.Content)
                                + Convert.ToDouble(SumPlan.Content)
                                + Convert.ToDouble(SumReal.Content)) / Max * 100;
+
             //RDataLabel6.Content;
         }
 
