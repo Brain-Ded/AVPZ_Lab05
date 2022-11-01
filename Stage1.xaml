@@ -25,19 +25,115 @@
                         <ColumnDefinition Width="0.2*"></ColumnDefinition>
                         <ColumnDefinition Width="0.2*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Row="0" Grid.Column="0"></Label>
-                    <Label Grid.Row="1" Grid.Column="0"></Label>
-                    <Label Grid.Row="2" Grid.Column="0"></Label>
-                    <Label Grid.Row="3" Grid.Column="0"></Label>
-                    <Label Grid.Row="4" Grid.Column="0"></Label>
-                    <Label Grid.Row="5" Grid.Column="0"></Label>
-                    <Label Grid.Row="6" Grid.Column="0"></Label>
-                    <Label Grid.Row="7" Grid.Column="0"></Label>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи технічних ризиків</Label>
+                    <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">функціональні характеристики ПЗ</Label>
+                    <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">характеристики якості ПЗ</Label>
+                    <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">характеристики надійності ПЗ</Label>
+                    <Label Grid.Row="4" Grid.Column="0" VerticalAlignment="Center">застосовність ПЗ</Label>
+                    <Label Grid.Row="5" Grid.Column="0" VerticalAlignment="Center">часова продуктивність ПЗ</Label>
+                    <Label Grid.Row="6" Grid.Column="0" VerticalAlignment="Center">супроводжуваність ПЗ</Label>
+                    <Label Grid.Row="7" Grid.Column="0" VerticalAlignment="Center">повторне використання компонент ПЗ</Label>
+
+                    <Label x:Name="SumTech" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
+                    <Label x:Name="TDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="TDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="TDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="TDataLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="TDataLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="TDataLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="TDataLabel7" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center"></Label>
+
+                    <Label x:Name="TechPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center">0%</Label>
                 </Grid>
             </TabItem>
-            <TabItem Header="Вар. Ризики"></TabItem>
-            <TabItem Header="План. Ризики"></TabItem>
-            <TabItem Header="Ризики реалізації управління"></TabItem>
+            <TabItem Header="Вар. Ризики">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи технічних ризиків</Label>
+                    <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">функціональні характеристики ПЗ</Label>
+                    <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">характеристики якості ПЗ</Label>
+                    <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">характеристики надійності ПЗ</Label>
+
+                    <Label x:Name="SumCost" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
+                    <Label x:Name="VDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="VDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="VDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
+
+                    <Label x:Name="CostPercent" Grid.Row="0" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" VerticalAlignment="Center">0%</Label>
+                </Grid>
+            </TabItem>
+            <TabItem Header="План. Ризики">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи технічних ризиків</Label>
+                    <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">функціональні характеристики ПЗ</Label>
+                    <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">характеристики якості ПЗ</Label>
+                    <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">характеристики надійності ПЗ</Label>
+
+                    <Label x:Name="SumPlan" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
+                    <Label x:Name="PDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="PDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="PDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
+
+                    <Label x:Name="PlanPercent" Grid.Row="0" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" VerticalAlignment="Center">0%</Label>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Ризики реалізації управління">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи технічних ризиків</Label>
+                    <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">функціональні характеристики ПЗ</Label>
+                    <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">характеристики якості ПЗ</Label>
+                    <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">характеристики надійності ПЗ</Label>
+                    <Label Grid.Row="4" Grid.Column="0" VerticalAlignment="Center">застосовність ПЗ</Label>
+                    <Label Grid.Row="5" Grid.Column="0" VerticalAlignment="Center">часова продуктивність ПЗ</Label>
+                    <Button x:Name="NextButton" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="66" Margin="264,0,0,0" Click="NextButton_Click">Next</Button>
+
+                    <Label x:Name="SumReal" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
+                    <Label x:Name="RDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="RDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="RDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="RDataLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="RDataLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center"></Label>
+                    <Label x:Name="RDataLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center">18</Label>
+                    <Label x:Name="AllPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Row="6" Grid.Column="2" VerticalAlignment="Center">0%</Label>
+
+                    <Label x:Name="RealPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center">0%</Label>
+                </Grid>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
