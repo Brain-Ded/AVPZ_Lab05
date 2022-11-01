@@ -122,8 +122,8 @@ namespace AVPZ_Lab05
 
             RealPercent.Content = Convert.ToInt32(RealSum.Content) / Max * 100;
 
-            AllRiskPercent.Content = Convert.ToInt32(TechSum.Content) + Convert.ToInt32(CostSum.Content)
-                                   + Convert.ToInt32(PlanSum.Content) + Convert.ToInt32(RealSum.Content);
+            AllRiskPercent.Content = (Convert.ToInt32(TechSum.Content) + Convert.ToInt32(CostSum.Content)
+                                   + Convert.ToInt32(PlanSum.Content) + Convert.ToInt32(RealSum.Content)) / Max * 100;
         }
     }
 }

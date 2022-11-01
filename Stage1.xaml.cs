@@ -79,13 +79,112 @@ namespace AVPZ_Lab05
                                + Convert.ToDouble(SumCost.Content)
                                + Convert.ToDouble(SumPlan.Content)
                                + Convert.ToDouble(SumReal.Content)) / Max * 100;
-            //RDataLabel6.Content;
-        }
 
-        private void NextButton_Click(object sender, RoutedEventArgs e)
-        {
-            Stage1_2 stage1_2 = new Stage1_2();
-            stage1_2.Show();
+            //RDataLabel6.Content;
+
+
+
+            InitializeComponent();
+            double Max2 = 41;
+
+            TechLabel1.Content = rand.Next(0, 2);
+            TechLabel2.Content = rand.Next(0, 2);
+            TechLabel3.Content = rand.Next(0, 2);
+            TechLabel4.Content = rand.Next(0, 2);
+            TechLabel5.Content = rand.Next(0, 2);
+            TechLabel6.Content = rand.Next(0, 2);
+            TechLabel7.Content = rand.Next(0, 2);
+            TechLabel8.Content = rand.Next(0, 2);
+            TechLabel9.Content = rand.Next(0, 2);
+            TechLabel10.Content = rand.Next(0, 2);
+            TechLabel11.Content = rand.Next(0, 2);
+
+            TechSum.Content = (Convert.ToInt32(TechLabel1.Content)
+                            + Convert.ToInt32(TechLabel2.Content)
+                            + Convert.ToInt32(TechLabel3.Content)
+                            + Convert.ToInt32(TechLabel4.Content)
+                            + Convert.ToInt32(TechLabel5.Content)
+                            + Convert.ToInt32(TechLabel6.Content)
+                            + Convert.ToInt32(TechLabel7.Content)
+                            + Convert.ToInt32(TechLabel8.Content)
+                            + Convert.ToInt32(TechLabel9.Content)
+                            + Convert.ToInt32(TechLabel10.Content)
+                            + Convert.ToInt32(TechLabel11.Content));
+            TechPercent1.Content = Convert.ToInt32(TechSum.Content) / Max2 * 100;
+
+            CostLabel1.Content = rand.Next(0, 2);
+            CostLabel2.Content = rand.Next(0, 2);
+            CostLabel3.Content = rand.Next(0, 2);
+            CostLabel4.Content = rand.Next(0, 2);
+            CostLabel5.Content = rand.Next(0, 2);
+            CostLabel6.Content = rand.Next(0, 2);
+            CostLabel7.Content = rand.Next(0, 2);
+
+            CostSum.Content = Convert.ToInt32(CostLabel1.Content)
+                            + Convert.ToInt32(CostLabel2.Content)
+                            + Convert.ToInt32(CostLabel3.Content)
+                            + Convert.ToInt32(CostLabel4.Content)
+                            + Convert.ToInt32(CostLabel5.Content)
+                            + Convert.ToInt32(CostLabel6.Content)
+                            + Convert.ToInt32(CostLabel7.Content);
+            CostPercent1.Content = Convert.ToInt32(CostSum.Content) / Max2 * 100;
+
+            PlanLabel1.Content = rand.Next(0, 2);
+            PlanLabel2.Content = rand.Next(0, 2);
+            PlanLabel3.Content = rand.Next(0, 2);
+            PlanLabel4.Content = rand.Next(0, 2);
+            PlanLabel5.Content = rand.Next(0, 2);
+            PlanLabel6.Content = rand.Next(0, 2);
+            PlanLabel7.Content = rand.Next(0, 2);
+            PlanLabel8.Content = rand.Next(0, 2);
+            PlanLabel9.Content = rand.Next(0, 2);
+
+            PlanSum.Content = Convert.ToInt32(PlanLabel1.Content)
+                + Convert.ToInt32(PlanLabel2.Content)
+                + Convert.ToInt32(PlanLabel3.Content)
+                + Convert.ToInt32(PlanLabel4.Content)
+                + Convert.ToInt32(PlanLabel5.Content)
+                + Convert.ToInt32(PlanLabel6.Content)
+                + Convert.ToInt32(PlanLabel7.Content)
+                + Convert.ToInt32(PlanLabel8.Content)
+                + Convert.ToInt32(PlanLabel9.Content);
+
+            PlanPercent1.Content = Convert.ToInt32(PlanSum.Content) / Max2 * 100;
+
+            RealLabel1.Content = rand.Next(0, 2);
+            RealLabel2.Content = rand.Next(0, 2);
+            RealLabel3.Content = rand.Next(0, 2);
+            RealLabel4.Content = rand.Next(0, 2);
+            RealLabel5.Content = rand.Next(0, 2);
+            RealLabel6.Content = rand.Next(0, 2);
+            RealLabel7.Content = rand.Next(0, 2);
+            RealLabel8.Content = rand.Next(0, 2);
+            RealLabel9.Content = rand.Next(0, 2);
+            RealLabel10.Content = rand.Next(0, 2);
+            RealLabel11.Content = rand.Next(0, 2);
+            RealLabel12.Content = rand.Next(0, 2);
+            RealLabel13.Content = rand.Next(0, 2);
+            RealLabel14.Content = rand.Next(0, 2);
+
+            RealSum.Content = Convert.ToInt32(RealLabel1.Content)
+                           + Convert.ToInt32(RealLabel2.Content)
+                           + Convert.ToInt32(RealLabel3.Content)
+                           + Convert.ToInt32(RealLabel4.Content)
+                           + Convert.ToInt32(RealLabel5.Content)
+                           + Convert.ToInt32(RealLabel6.Content)
+                           + Convert.ToInt32(RealLabel7.Content)
+                           + Convert.ToInt32(RealLabel8.Content)
+                           + Convert.ToInt32(RealLabel9.Content)
+                           + Convert.ToInt32(RealLabel10.Content)
+                           + Convert.ToInt32(RealLabel11.Content)
+                           + Convert.ToInt32(RealLabel12.Content)
+                           + Convert.ToInt32(RealLabel13.Content)
+                           + Convert.ToInt32(RealLabel14.Content);
+
+            RealPercent1.Content = Convert.ToInt32(RealSum.Content) / Max2 * 100;
+
+            AllRiskPercent.Content = (Convert.ToInt32(TechSum.Content) + Convert.ToInt32(CostSum.Content)
+                                   + Convert.ToInt32(PlanSum.Content) + Convert.ToInt32(RealSum.Content)) / Max2 * 100;
         }
     }
 }
