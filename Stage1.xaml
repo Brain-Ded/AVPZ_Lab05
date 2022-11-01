@@ -128,7 +128,7 @@
                     <Label x:Name="RDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
                     <Label x:Name="RDataLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"></Label>
                     <Label x:Name="RDataLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center"></Label>
-                    <Label x:Name="RDataLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center">18</Label>
+                    <Label x:Name="RDataLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center">AllRisks%</Label>
                     <Label x:Name="AllPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Row="6" Grid.Column="2" VerticalAlignment="Center">0%</Label>
 
                     <Label x:Name="RealPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center">0%</Label>

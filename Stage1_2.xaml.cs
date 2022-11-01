@@ -89,6 +89,41 @@ namespace AVPZ_Lab05
                 + Convert.ToInt32(PlanLabel9.Content);
 
             PlanPercent.Content = Convert.ToInt32(PlanSum.Content) / Max * 100;
+
+            RealLabel1.Content = rand.Next(0, 2);
+            RealLabel2.Content = rand.Next(0, 2);
+            RealLabel3.Content = rand.Next(0, 2);
+            RealLabel4.Content = rand.Next(0, 2);
+            RealLabel5.Content = rand.Next(0, 2);
+            RealLabel6.Content = rand.Next(0, 2);
+            RealLabel7.Content = rand.Next(0, 2);
+            RealLabel8.Content = rand.Next(0, 2);
+            RealLabel9.Content = rand.Next(0, 2);
+            RealLabel10.Content = rand.Next(0, 2);
+            RealLabel11.Content = rand.Next(0, 2);
+            RealLabel12.Content = rand.Next(0, 2);
+            RealLabel13.Content = rand.Next(0, 2);
+            RealLabel14.Content = rand.Next(0, 2);
+
+            RealSum.Content = Convert.ToInt32(RealLabel1.Content)
+                           + Convert.ToInt32(RealLabel2.Content)
+                           + Convert.ToInt32(RealLabel3.Content)
+                           + Convert.ToInt32(RealLabel4.Content)
+                           + Convert.ToInt32(RealLabel5.Content)
+                           + Convert.ToInt32(RealLabel6.Content)
+                           + Convert.ToInt32(RealLabel7.Content)
+                           + Convert.ToInt32(RealLabel8.Content)
+                           + Convert.ToInt32(RealLabel9.Content)
+                           + Convert.ToInt32(RealLabel10.Content)
+                           + Convert.ToInt32(RealLabel11.Content)
+                           + Convert.ToInt32(RealLabel12.Content)
+                           + Convert.ToInt32(RealLabel13.Content)
+                           + Convert.ToInt32(RealLabel14.Content);
+
+            RealPercent.Content = Convert.ToInt32(RealSum.Content) / Max * 100;
+
+            AllRiskPercent.Content = Convert.ToInt32(TechSum.Content) + Convert.ToInt32(CostSum.Content)
+                                   + Convert.ToInt32(PlanSum.Content) + Convert.ToInt32(RealSum.Content);
         }
     }
 }
