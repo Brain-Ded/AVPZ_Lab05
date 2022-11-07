@@ -775,247 +775,247 @@
                                     <ComboBoxItem Content="VeryHigh"/>
                                 </ComboBox>
 
-                                <Label x:Name="R0C3Label" Grid.Row="0" Grid.Column="3"></Label>
-                                <Label x:Name="R0C4Label" Grid.Row="0" Grid.Column="4"></Label>
-                                <Label x:Name="R0C5Label" Grid.Row="0" Grid.Column="5"></Label>
-                                <Label x:Name="R0C6Label" Grid.Row="0" Grid.Column="6"></Label>
-                                <Label x:Name="R0C7Label" Grid.Row="0" Grid.Column="7"></Label>
-                                <Label x:Name="R0C8Label" Grid.Row="0" Grid.Column="8"></Label>
-                                <Label x:Name="R0C9Label" Grid.Row="0" Grid.Column="9"></Label>
-                                <Label x:Name="R0C10Label" Grid.Row="0" Grid.Column="10"></Label>
-                                <Label x:Name="R0C11Label" Grid.Row="0" Grid.Column="11"></Label>
-                                <Label x:Name="R0C12Label" Grid.Row="0" Grid.Column="12"></Label>
+                                <Label x:Name="R0C3Label" Grid.Row="0" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C4Label" Grid.Row="0" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C5Label" Grid.Row="0" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C6Label" Grid.Row="0" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C7Label" Grid.Row="0" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C8Label" Grid.Row="0" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C9Label" Grid.Row="0" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C10Label" Grid.Row="0" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C11Label" Grid.Row="0" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C12Label" Grid.Row="0" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R1C3Label" Grid.Row="1" Grid.Column="3"></Label>
-                                <Label x:Name="R1C4Label" Grid.Row="1" Grid.Column="4"></Label>
-                                <Label x:Name="R1C5Label" Grid.Row="1" Grid.Column="5"></Label>
-                                <Label x:Name="R1C6Label" Grid.Row="1" Grid.Column="6"></Label>
-                                <Label x:Name="R1C7Label" Grid.Row="1" Grid.Column="7"></Label>
-                                <Label x:Name="R1C8Label" Grid.Row="1" Grid.Column="8"></Label>
-                                <Label x:Name="R1C9Label" Grid.Row="1" Grid.Column="9"></Label>
-                                <Label x:Name="R1C10Label" Grid.Row="1" Grid.Column="10"></Label>
-                                <Label x:Name="R1C11Label" Grid.Row="1" Grid.Column="11"></Label>
-                                <Label x:Name="R1C12Label" Grid.Row="1" Grid.Column="12"></Label>
+                                <Label x:Name="R1C3Label" Grid.Row="1" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C4Label" Grid.Row="1" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C5Label" Grid.Row="1" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C6Label" Grid.Row="1" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C7Label" Grid.Row="1" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C8Label" Grid.Row="1" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C9Label" Grid.Row="1" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C10Label" Grid.Row="1" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C11Label" Grid.Row="1" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C12Label" Grid.Row="1" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R2C3Label" Grid.Row="2" Grid.Column="3"></Label>
-                                <Label x:Name="R2C4Label" Grid.Row="2" Grid.Column="4"></Label>
-                                <Label x:Name="R2C5Label" Grid.Row="2" Grid.Column="5"></Label>
-                                <Label x:Name="R2C6Label" Grid.Row="2" Grid.Column="6"></Label>
-                                <Label x:Name="R2C7Label" Grid.Row="2" Grid.Column="7"></Label>
-                                <Label x:Name="R2C8Label" Grid.Row="2" Grid.Column="8"></Label>
-                                <Label x:Name="R2C9Label" Grid.Row="2" Grid.Column="9"></Label>
-                                <Label x:Name="R2C10Label" Grid.Row="2" Grid.Column="10"></Label>
-                                <Label x:Name="R2C11Label" Grid.Row="2" Grid.Column="11"></Label>
-                                <Label x:Name="R2C12Label" Grid.Row="2" Grid.Column="12"></Label>
+                                <Label x:Name="R2C3Label" Grid.Row="2" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C4Label" Grid.Row="2" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C5Label" Grid.Row="2" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C6Label" Grid.Row="2" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C7Label" Grid.Row="2" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C8Label" Grid.Row="2" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C9Label" Grid.Row="2" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C10Label" Grid.Row="2" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C11Label" Grid.Row="2" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C12Label" Grid.Row="2" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R3C3Label" Grid.Row="3" Grid.Column="3"></Label>
-                                <Label x:Name="R3C4Label" Grid.Row="3" Grid.Column="4"></Label>
-                                <Label x:Name="R3C5Label" Grid.Row="3" Grid.Column="5"></Label>
-                                <Label x:Name="R3C6Label" Grid.Row="3" Grid.Column="6"></Label>
-                                <Label x:Name="R3C7Label" Grid.Row="3" Grid.Column="7"></Label>
-                                <Label x:Name="R3C8Label" Grid.Row="3" Grid.Column="8"></Label>
-                                <Label x:Name="R3C9Label" Grid.Row="3" Grid.Column="9"></Label>
-                                <Label x:Name="R3C10Label" Grid.Row="3" Grid.Column="10"></Label>
-                                <Label x:Name="R3C11Label" Grid.Row="3" Grid.Column="11"></Label>
-                                <Label x:Name="R3C12Label" Grid.Row="3" Grid.Column="12"></Label>
+                                <Label x:Name="R3C3Label" Grid.Row="3" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C4Label" Grid.Row="3" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C5Label" Grid.Row="3" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C6Label" Grid.Row="3" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C7Label" Grid.Row="3" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C8Label" Grid.Row="3" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C9Label" Grid.Row="3" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C10Label" Grid.Row="3" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C11Label" Grid.Row="3" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C12Label" Grid.Row="3" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R4C3Label" Grid.Row="4" Grid.Column="3"></Label>
-                                <Label x:Name="R4C4Label" Grid.Row="4" Grid.Column="4"></Label>
-                                <Label x:Name="R4C5Label" Grid.Row="4" Grid.Column="5"></Label>
-                                <Label x:Name="R4C6Label" Grid.Row="4" Grid.Column="6"></Label>
-                                <Label x:Name="R4C7Label" Grid.Row="4" Grid.Column="7"></Label>
-                                <Label x:Name="R4C8Label" Grid.Row="4" Grid.Column="8"></Label>
-                                <Label x:Name="R4C9Label" Grid.Row="4" Grid.Column="9"></Label>
-                                <Label x:Name="R4C10Label" Grid.Row="4" Grid.Column="10"></Label>
-                                <Label x:Name="R4C11Label" Grid.Row="4" Grid.Column="11"></Label>
-                                <Label x:Name="R4C12Label" Grid.Row="4" Grid.Column="12"></Label>
+                                <Label x:Name="R4C3Label" Grid.Row="4" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C4Label" Grid.Row="4" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C5Label" Grid.Row="4" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C6Label" Grid.Row="4" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C7Label" Grid.Row="4" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C8Label" Grid.Row="4" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C9Label" Grid.Row="4" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C10Label" Grid.Row="4" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C11Label" Grid.Row="4" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C12Label" Grid.Row="4" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R5C3Label" Grid.Row="5" Grid.Column="3"></Label>
-                                <Label x:Name="R5C4Label" Grid.Row="5" Grid.Column="4"></Label>
-                                <Label x:Name="R5C5Label" Grid.Row="5" Grid.Column="5"></Label>
-                                <Label x:Name="R5C6Label" Grid.Row="5" Grid.Column="6"></Label>
-                                <Label x:Name="R5C7Label" Grid.Row="5" Grid.Column="7"></Label>
-                                <Label x:Name="R5C8Label" Grid.Row="5" Grid.Column="8"></Label>
-                                <Label x:Name="R5C9Label" Grid.Row="5" Grid.Column="9"></Label>
-                                <Label x:Name="R5C10Label" Grid.Row="5" Grid.Column="10"></Label>
-                                <Label x:Name="R5C11Label" Grid.Row="5" Grid.Column="11"></Label>
-                                <Label x:Name="R5C12Label" Grid.Row="5" Grid.Column="12"></Label>
+                                <Label x:Name="R5C3Label" Grid.Row="5" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C4Label" Grid.Row="5" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C5Label" Grid.Row="5" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C6Label" Grid.Row="5" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C7Label" Grid.Row="5" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C8Label" Grid.Row="5" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C9Label" Grid.Row="5" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C10Label" Grid.Row="5" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C11Label" Grid.Row="5" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C12Label" Grid.Row="5" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R6C3Label" Grid.Row="6" Grid.Column="3"></Label>
-                                <Label x:Name="R6C4Label" Grid.Row="6" Grid.Column="4"></Label>
-                                <Label x:Name="R6C5Label" Grid.Row="6" Grid.Column="5"></Label>
-                                <Label x:Name="R6C6Label" Grid.Row="6" Grid.Column="6"></Label>
-                                <Label x:Name="R6C7Label" Grid.Row="6" Grid.Column="7"></Label>
-                                <Label x:Name="R6C8Label" Grid.Row="6" Grid.Column="8"></Label>
-                                <Label x:Name="R6C9Label" Grid.Row="6" Grid.Column="9"></Label>
-                                <Label x:Name="R6C10Label" Grid.Row="6" Grid.Column="10"></Label>
-                                <Label x:Name="R6C11Label" Grid.Row="6" Grid.Column="11"></Label>
-                                <Label x:Name="R6C12Label" Grid.Row="6" Grid.Column="12"></Label>
+                                <Label x:Name="R6C3Label" Grid.Row="6" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C4Label" Grid.Row="6" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C5Label" Grid.Row="6" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C6Label" Grid.Row="6" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C7Label" Grid.Row="6" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C8Label" Grid.Row="6" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C9Label" Grid.Row="6" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C10Label" Grid.Row="6" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C11Label" Grid.Row="6" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C12Label" Grid.Row="6" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R7C3Label" Grid.Row="6" Grid.Column="3"></Label>
-                                <Label x:Name="R7C4Label" Grid.Row="6" Grid.Column="4"></Label>
-                                <Label x:Name="R7C5Label" Grid.Row="6" Grid.Column="5"></Label>
-                                <Label x:Name="R7C6Label" Grid.Row="6" Grid.Column="6"></Label>
-                                <Label x:Name="R7C7Label" Grid.Row="6" Grid.Column="7"></Label>
-                                <Label x:Name="R7C8Label" Grid.Row="6" Grid.Column="8"></Label>
-                                <Label x:Name="R7C9Label" Grid.Row="6" Grid.Column="9"></Label>
-                                <Label x:Name="R7C10Label" Grid.Row="6" Grid.Column="10"></Label>
-                                <Label x:Name="R7C11Label" Grid.Row="6" Grid.Column="11"></Label>
-                                <Label x:Name="R7C12Label" Grid.Row="6" Grid.Column="12"></Label>
+                                <Label x:Name="R7C3Label" Grid.Row="7" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C4Label" Grid.Row="7" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C5Label" Grid.Row="7" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C6Label" Grid.Row="7" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C7Label" Grid.Row="7" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C8Label" Grid.Row="7" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C9Label" Grid.Row="7" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C10Label" Grid.Row="7" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C11Label" Grid.Row="7" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C12Label" Grid.Row="7" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R8C3Label" Grid.Row="6" Grid.Column="3"></Label>
-                                <Label x:Name="R8C4Label" Grid.Row="6" Grid.Column="4"></Label>
-                                <Label x:Name="R8C5Label" Grid.Row="6" Grid.Column="5"></Label>
-                                <Label x:Name="R8C6Label" Grid.Row="6" Grid.Column="6"></Label>
-                                <Label x:Name="R8C7Label" Grid.Row="6" Grid.Column="7"></Label>
-                                <Label x:Name="R8C8Label" Grid.Row="6" Grid.Column="8"></Label>
-                                <Label x:Name="R8C9Label" Grid.Row="6" Grid.Column="9"></Label>
-                                <Label x:Name="R8C10Label" Grid.Row="6" Grid.Column="10"></Label>
-                                <Label x:Name="R8C11Label" Grid.Row="6" Grid.Column="11"></Label>
-                                <Label x:Name="R8C12Label" Grid.Row="6" Grid.Column="12"></Label>
+                                <Label x:Name="R8C3Label" Grid.Row="8" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C4Label" Grid.Row="8" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C5Label" Grid.Row="8" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C6Label" Grid.Row="8" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C7Label" Grid.Row="8" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C8Label" Grid.Row="8" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C9Label" Grid.Row="8" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C10Label" Grid.Row="8" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C11Label" Grid.Row="8" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C12Label" Grid.Row="8" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R9C3Label" Grid.Row="6" Grid.Column="3"></Label>
-                                <Label x:Name="R9C4Label" Grid.Row="6" Grid.Column="4"></Label>
-                                <Label x:Name="R9C5Label" Grid.Row="6" Grid.Column="5"></Label>
-                                <Label x:Name="R9C6Label" Grid.Row="6" Grid.Column="6"></Label>
-                                <Label x:Name="R9C7Label" Grid.Row="6" Grid.Column="7"></Label>
-                                <Label x:Name="R9C8Label" Grid.Row="6" Grid.Column="8"></Label>
-                                <Label x:Name="R9C9Label" Grid.Row="6" Grid.Column="9"></Label>
-                                <Label x:Name="R9C10Label" Grid.Row="6" Grid.Column="10"></Label>
-                                <Label x:Name="R9C11Label" Grid.Row="6" Grid.Column="11"></Label>
-                                <Label x:Name="R9C12Label" Grid.Row="6" Grid.Column="12"></Label>
+                                <Label x:Name="R9C3Label" Grid.Row="9" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C4Label" Grid.Row="9" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C5Label" Grid.Row="9" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C6Label" Grid.Row="9" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C7Label" Grid.Row="9" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C8Label" Grid.Row="9" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C9Label" Grid.Row="9" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C10Label" Grid.Row="9" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C11Label" Grid.Row="9" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C12Label" Grid.Row="9" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R10C3Label" Grid.Row="10" Grid.Column="3"></Label>
-                                <Label x:Name="R10C4Label" Grid.Row="10" Grid.Column="4"></Label>
-                                <Label x:Name="R10C5Label" Grid.Row="10" Grid.Column="5"></Label>
-                                <Label x:Name="R10C6Label" Grid.Row="10" Grid.Column="6"></Label>
-                                <Label x:Name="R10C7Label" Grid.Row="10" Grid.Column="7"></Label>
-                                <Label x:Name="R10C8Label" Grid.Row="10" Grid.Column="8"></Label>
-                                <Label x:Name="R10C9Label" Grid.Row="10" Grid.Column="9"></Label>
-                                <Label x:Name="R10C10Label" Grid.Row="10" Grid.Column="10"></Label>
-                                <Label x:Name="R10C11Label" Grid.Row="10" Grid.Column="11"></Label>
-                                <Label x:Name="R10C12Label" Grid.Row="10" Grid.Column="12"></Label>
+                                <Label x:Name="R10C3Label" Grid.Row="10" Grid.Column="3" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C4Label" Grid.Row="10" Grid.Column="4" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C5Label" Grid.Row="10" Grid.Column="5" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C6Label" Grid.Row="10" Grid.Column="6" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C7Label" Grid.Row="10" Grid.Column="7" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C8Label" Grid.Row="10" Grid.Column="8" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C9Label" Grid.Row="10" Grid.Column="9" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C10Label" Grid.Row="10" Grid.Column="10" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C11Label" Grid.Row="10" Grid.Column="11" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C12Label" Grid.Row="10" Grid.Column="12" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R0C3LabelP2" Grid.Row="0" Grid.Column="13"></Label>
-                                <Label x:Name="R0C4LabelP2" Grid.Row="0" Grid.Column="14"></Label>
-                                <Label x:Name="R0C5LabelP2" Grid.Row="0" Grid.Column="15"></Label>
-                                <Label x:Name="R0C6LabelP2" Grid.Row="0" Grid.Column="16"></Label>
-                                <Label x:Name="R0C7LabelP2" Grid.Row="0" Grid.Column="17"></Label>
-                                <Label x:Name="R0C8LabelP2" Grid.Row="0" Grid.Column="18"></Label>
-                                <Label x:Name="R0C9LabelP2" Grid.Row="0" Grid.Column="19"></Label>
-                                <Label x:Name="R0C10LabelP2" Grid.Row="0" Grid.Column="20"></Label>
-                                <Label x:Name="R0C11LabelP2" Grid.Row="0" Grid.Column="21"></Label>
-                                <Label x:Name="R0C12LabelP2" Grid.Row="0" Grid.Column="22"></Label>
+                                <Label x:Name="R0C3LabelP2" Grid.Row="0" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C4LabelP2" Grid.Row="0" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C5LabelP2" Grid.Row="0" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C6LabelP2" Grid.Row="0" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C7LabelP2" Grid.Row="0" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C8LabelP2" Grid.Row="0" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C9LabelP2" Grid.Row="0" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C10LabelP2" Grid.Row="0" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C11LabelP2" Grid.Row="0" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R0C12LabelP2" Grid.Row="0" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R1C3LabelP2" Grid.Row="1" Grid.Column="13"></Label>
-                                <Label x:Name="R1C4LabelP2" Grid.Row="1" Grid.Column="14"></Label>
-                                <Label x:Name="R1C5LabelP2" Grid.Row="1" Grid.Column="15"></Label>
-                                <Label x:Name="R1C6LabelP2" Grid.Row="1" Grid.Column="16"></Label>
-                                <Label x:Name="R1C7LabelP2" Grid.Row="1" Grid.Column="17"></Label>
-                                <Label x:Name="R1C8LabelP2" Grid.Row="1" Grid.Column="18"></Label>
-                                <Label x:Name="R1C9LabelP2" Grid.Row="1" Grid.Column="19"></Label>
-                                <Label x:Name="R1C10LabelP2" Grid.Row="1" Grid.Column="20"></Label>
-                                <Label x:Name="R1C11LabelP2" Grid.Row="1" Grid.Column="21"></Label>
-                                <Label x:Name="R1C12LabelP2" Grid.Row="1" Grid.Column="22"></Label>
+                                <Label x:Name="R1C3LabelP2" Grid.Row="1" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C4LabelP2" Grid.Row="1" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C5LabelP2" Grid.Row="1" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C6LabelP2" Grid.Row="1" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C7LabelP2" Grid.Row="1" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C8LabelP2" Grid.Row="1" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C9LabelP2" Grid.Row="1" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C10LabelP2" Grid.Row="1" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C11LabelP2" Grid.Row="1" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R1C12LabelP2" Grid.Row="1" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R2C3LabelP2" Grid.Row="2" Grid.Column="13"></Label>
-                                <Label x:Name="R2C4LabelP2" Grid.Row="2" Grid.Column="14"></Label>
-                                <Label x:Name="R2C5LabelP2" Grid.Row="2" Grid.Column="15"></Label>
-                                <Label x:Name="R2C6LabelP2" Grid.Row="2" Grid.Column="16"></Label>
-                                <Label x:Name="R2C7LabelP2" Grid.Row="2" Grid.Column="17"></Label>
-                                <Label x:Name="R2C8LabelP2" Grid.Row="2" Grid.Column="18"></Label>
-                                <Label x:Name="R2C9LabelP2" Grid.Row="2" Grid.Column="19"></Label>
-                                <Label x:Name="R2C10LabelP2" Grid.Row="2" Grid.Column="20"></Label>
-                                <Label x:Name="R2C11LabelP2" Grid.Row="2" Grid.Column="21"></Label>
-                                <Label x:Name="R2C12LabelP2" Grid.Row="2" Grid.Column="22"></Label>
+                                <Label x:Name="R2C3LabelP2" Grid.Row="2" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C4LabelP2" Grid.Row="2" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C5LabelP2" Grid.Row="2" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C6LabelP2" Grid.Row="2" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C7LabelP2" Grid.Row="2" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C8LabelP2" Grid.Row="2" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C9LabelP2" Grid.Row="2" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C10LabelP2" Grid.Row="2" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C11LabelP2" Grid.Row="2" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R2C12LabelP2" Grid.Row="2" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R3C3LabelP2" Grid.Row="3" Grid.Column="13"></Label>
-                                <Label x:Name="R3C4LabelP2" Grid.Row="3" Grid.Column="14"></Label>
-                                <Label x:Name="R3C5LabelP2" Grid.Row="3" Grid.Column="15"></Label>
-                                <Label x:Name="R3C6LabelP2" Grid.Row="3" Grid.Column="16"></Label>
-                                <Label x:Name="R3C7LabelP2" Grid.Row="3" Grid.Column="17"></Label>
-                                <Label x:Name="R3C8LabelP2" Grid.Row="3" Grid.Column="18"></Label>
-                                <Label x:Name="R3C9LabelP2" Grid.Row="3" Grid.Column="19"></Label>
-                                <Label x:Name="R3C10LabelP2" Grid.Row="3" Grid.Column="20"></Label>
-                                <Label x:Name="R3C11LabelP2" Grid.Row="3" Grid.Column="21"></Label>
-                                <Label x:Name="R3C12LabelP2" Grid.Row="3" Grid.Column="22"></Label>
+                                <Label x:Name="R3C3LabelP2" Grid.Row="3" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C4LabelP2" Grid.Row="3" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C5LabelP2" Grid.Row="3" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C6LabelP2" Grid.Row="3" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C7LabelP2" Grid.Row="3" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C8LabelP2" Grid.Row="3" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C9LabelP2" Grid.Row="3" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C10LabelP2" Grid.Row="3" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C11LabelP2" Grid.Row="3" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R3C12LabelP2" Grid.Row="3" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R4C3LabelP2" Grid.Row="4" Grid.Column="13"></Label>
-                                <Label x:Name="R4C4LabelP2" Grid.Row="4" Grid.Column="14"></Label>
-                                <Label x:Name="R4C5LabelP2" Grid.Row="4" Grid.Column="15"></Label>
-                                <Label x:Name="R4C6LabelP2" Grid.Row="4" Grid.Column="16"></Label>
-                                <Label x:Name="R4C7LabelP2" Grid.Row="4" Grid.Column="17"></Label>
-                                <Label x:Name="R4C8LabelP2" Grid.Row="4" Grid.Column="18"></Label>
-                                <Label x:Name="R4C9LabelP2" Grid.Row="4" Grid.Column="19"></Label>
-                                <Label x:Name="R4C10LabelP2" Grid.Row="4" Grid.Column="20"></Label>
-                                <Label x:Name="R4C11LabelP2" Grid.Row="4" Grid.Column="21"></Label>
-                                <Label x:Name="R4C12LabelP2" Grid.Row="4" Grid.Column="22"></Label>
+                                <Label x:Name="R4C3LabelP2" Grid.Row="4" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C4LabelP2" Grid.Row="4" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C5LabelP2" Grid.Row="4" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C6LabelP2" Grid.Row="4" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C7LabelP2" Grid.Row="4" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C8LabelP2" Grid.Row="4" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C9LabelP2" Grid.Row="4" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C10LabelP2" Grid.Row="4" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C11LabelP2" Grid.Row="4" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R4C12LabelP2" Grid.Row="4" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R5C3LabelP2" Grid.Row="5" Grid.Column="13"></Label>
-                                <Label x:Name="R5C4LabelP2" Grid.Row="5" Grid.Column="14"></Label>
-                                <Label x:Name="R5C5LabelP2" Grid.Row="5" Grid.Column="15"></Label>
-                                <Label x:Name="R5C6LabelP2" Grid.Row="5" Grid.Column="16"></Label>
-                                <Label x:Name="R5C7LabelP2" Grid.Row="5" Grid.Column="17"></Label>
-                                <Label x:Name="R5C8LabelP2" Grid.Row="5" Grid.Column="18"></Label>
-                                <Label x:Name="R5C9LabelP2" Grid.Row="5" Grid.Column="19"></Label>
-                                <Label x:Name="R5C10LabelP2" Grid.Row="5" Grid.Column="20"></Label>
-                                <Label x:Name="R5C11LabelP2" Grid.Row="5" Grid.Column="21"></Label>
-                                <Label x:Name="R5C12LabelP2" Grid.Row="5" Grid.Column="22"></Label>
+                                <Label x:Name="R5C3LabelP2" Grid.Row="5" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C4LabelP2" Grid.Row="5" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C5LabelP2" Grid.Row="5" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C6LabelP2" Grid.Row="5" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C7LabelP2" Grid.Row="5" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C8LabelP2" Grid.Row="5" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C9LabelP2" Grid.Row="5" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C10LabelP2" Grid.Row="5" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C11LabelP2" Grid.Row="5" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R5C12LabelP2" Grid.Row="5" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R6C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
-                                <Label x:Name="R6C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
-                                <Label x:Name="R6C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
-                                <Label x:Name="R6C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
-                                <Label x:Name="R6C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
-                                <Label x:Name="R6C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
-                                <Label x:Name="R6C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
-                                <Label x:Name="R6C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
-                                <Label x:Name="R6C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
-                                <Label x:Name="R6C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+                                <Label x:Name="R6C3LabelP2" Grid.Row="6" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C4LabelP2" Grid.Row="6" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C5LabelP2" Grid.Row="6" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C6LabelP2" Grid.Row="6" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C7LabelP2" Grid.Row="6" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C8LabelP2" Grid.Row="6" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C9LabelP2" Grid.Row="6" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C10LabelP2" Grid.Row="6" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C11LabelP2" Grid.Row="6" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R6C12LabelP2" Grid.Row="6" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R7C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
-                                <Label x:Name="R7C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
-                                <Label x:Name="R7C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
-                                <Label x:Name="R7C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
-                                <Label x:Name="R7C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
-                                <Label x:Name="R7C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
-                                <Label x:Name="R7C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
-                                <Label x:Name="R7C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
-                                <Label x:Name="R7C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
-                                <Label x:Name="R7C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+                                <Label x:Name="R7C3LabelP2" Grid.Row="6" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C4LabelP2" Grid.Row="6" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C5LabelP2" Grid.Row="6" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C6LabelP2" Grid.Row="6" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C7LabelP2" Grid.Row="6" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C8LabelP2" Grid.Row="6" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C9LabelP2" Grid.Row="6" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C10LabelP2" Grid.Row="6" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C11LabelP2" Grid.Row="6" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R7C12LabelP2" Grid.Row="6" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R8C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
-                                <Label x:Name="R8C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
-                                <Label x:Name="R8C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
-                                <Label x:Name="R8C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
-                                <Label x:Name="R8C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
-                                <Label x:Name="R8C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
-                                <Label x:Name="R8C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
-                                <Label x:Name="R8C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
-                                <Label x:Name="R8C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
-                                <Label x:Name="R8C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+                                <Label x:Name="R8C3LabelP2" Grid.Row="6" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C4LabelP2" Grid.Row="6" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C5LabelP2" Grid.Row="6" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C6LabelP2" Grid.Row="6" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C7LabelP2" Grid.Row="6" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C8LabelP2" Grid.Row="6" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C9LabelP2" Grid.Row="6" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C10LabelP2" Grid.Row="6" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C11LabelP2" Grid.Row="6" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R8C12LabelP2" Grid.Row="6" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R9C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
-                                <Label x:Name="R9C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
-                                <Label x:Name="R9C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
-                                <Label x:Name="R9C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
-                                <Label x:Name="R9C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
-                                <Label x:Name="R9C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
-                                <Label x:Name="R9C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
-                                <Label x:Name="R9C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
-                                <Label x:Name="R9C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
-                                <Label x:Name="R9C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+                                <Label x:Name="R9C3LabelP2" Grid.Row="6" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C4LabelP2" Grid.Row="6" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C5LabelP2" Grid.Row="6" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C6LabelP2" Grid.Row="6" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C7LabelP2" Grid.Row="6" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C8LabelP2" Grid.Row="6" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C9LabelP2" Grid.Row="6" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C10LabelP2" Grid.Row="6" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C11LabelP2" Grid.Row="6" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R9C12LabelP2" Grid.Row="6" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
 
-                                <Label x:Name="R10C3LabelP2" Grid.Row="10" Grid.Column="13"></Label>
-                                <Label x:Name="R10C4LabelP2" Grid.Row="10" Grid.Column="14"></Label>
-                                <Label x:Name="R10C5LabelP2" Grid.Row="10" Grid.Column="15"></Label>
-                                <Label x:Name="R10C6LabelP2" Grid.Row="10" Grid.Column="16"></Label>
-                                <Label x:Name="R10C7LabelP2" Grid.Row="10" Grid.Column="17"></Label>
-                                <Label x:Name="R10C8LabelP2" Grid.Row="10" Grid.Column="18"></Label>
-                                <Label x:Name="R10C9LabelP2" Grid.Row="10" Grid.Column="19"></Label>
-                                <Label x:Name="R10C10LabelP2" Grid.Row="10" Grid.Column="20"></Label>
-                                <Label x:Name="R10C11LabelP2" Grid.Row="10" Grid.Column="21"></Label>
-                                <Label x:Name="R10C12LabelP2" Grid.Row="10" Grid.Column="22"></Label>
+                                <Label x:Name="R10C3LabelP2" Grid.Row="10" Grid.Column="13" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C4LabelP2" Grid.Row="10" Grid.Column="14" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C5LabelP2" Grid.Row="10" Grid.Column="15" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C6LabelP2" Grid.Row="10" Grid.Column="16" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C7LabelP2" Grid.Row="10" Grid.Column="17" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C8LabelP2" Grid.Row="10" Grid.Column="18" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C9LabelP2" Grid.Row="10" Grid.Column="19" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C10LabelP2" Grid.Row="10" Grid.Column="20" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C11LabelP2" Grid.Row="10" Grid.Column="21" ContentStringFormat="{}{0:0.##}"></Label>
+                                <Label x:Name="R10C12LabelP2" Grid.Row="10" Grid.Column="22" ContentStringFormat="{}{0:0.##}"></Label>
                             </Grid>
                         </Grid>
                     </TabItem>
