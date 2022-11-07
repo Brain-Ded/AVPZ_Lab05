@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AVPZ_Lab05"
         mc:Ignorable="d"
-        Title="Stage1" Height="600" Width="900">
+        Title="Stage1" Height="600" Width="1300">
     <Grid>
         <TabControl>
             <TabItem Header="Етап 1">
@@ -37,13 +37,35 @@
                             <Label Grid.Row="7" Grid.Column="0" VerticalAlignment="Center">повторне використання компонент ПЗ</Label>
 
                             <Label x:Name="SumTech" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
-                            <Label x:Name="TDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="TDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="TDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="TDataLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="TDataLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="TDataLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="TDataLabel7" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center"></Label>
+
+                            <ComboBox x:Name="TDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TDataLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TDataLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TDataLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TDataLabel7" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
 
                             <Label x:Name="TechPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center">0%</Label>
                         </Grid>
@@ -61,15 +83,24 @@
                                 <ColumnDefinition Width="0.2*"></ColumnDefinition>
                                 <ColumnDefinition Width="0.2*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи технічних ризиків</Label>
+                            <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи вартісних ризиків</Label>
                             <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">функціональні характеристики ПЗ</Label>
                             <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">характеристики якості ПЗ</Label>
                             <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">характеристики надійності ПЗ</Label>
 
                             <Label x:Name="SumCost" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
-                            <Label x:Name="VDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="VDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="VDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
+                            <ComboBox x:Name="VDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="VDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="VDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
 
                             <Label x:Name="CostPercent" Grid.Row="0" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" VerticalAlignment="Center">0%</Label>
                         </Grid>
@@ -87,16 +118,24 @@
                                 <ColumnDefinition Width="0.2*"></ColumnDefinition>
                                 <ColumnDefinition Width="0.2*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи технічних ризиків</Label>
+                            <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи планових ризиків</Label>
                             <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">функціональні характеристики ПЗ</Label>
                             <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">характеристики якості ПЗ</Label>
                             <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">характеристики надійності ПЗ</Label>
 
                             <Label x:Name="SumPlan" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
-                            <Label x:Name="PDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="PDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="PDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
-
+                            <ComboBox x:Name="PDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
                             <Label x:Name="PlanPercent" Grid.Row="0" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" VerticalAlignment="Center">0%</Label>
                         </Grid>
                     </TabItem>
@@ -116,7 +155,7 @@
                                 <ColumnDefinition Width="0.2*"></ColumnDefinition>
                                 <ColumnDefinition Width="0.2*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи технічних ризиків</Label>
+                            <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="16">Множина джерел появи ризиків реалізації управління програмним проектом</Label>
                             <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">функціональні характеристики ПЗ</Label>
                             <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">характеристики якості ПЗ</Label>
                             <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">характеристики надійності ПЗ</Label>
@@ -124,11 +163,26 @@
                             <Label Grid.Row="5" Grid.Column="0" VerticalAlignment="Center">часова продуктивність ПЗ</Label>
 
                             <Label x:Name="SumReal" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16">0</Label>
-                            <Label x:Name="RDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="RDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="RDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="RDataLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"></Label>
-                            <Label x:Name="RDataLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center"></Label>
+                            <ComboBox x:Name="RDataLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RDataLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RDataLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RDataLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RDataLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
                             <Label x:Name="RDataLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center">AllRisks%</Label>
                             <Label x:Name="AllPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Row="6" Grid.Column="2" VerticalAlignment="Center">0%</Label>
 
@@ -170,18 +224,53 @@
                             <Label VerticalAlignment="Center" Grid.Row="10" Grid.Column="0" Height="30" FontSize="10">швидкість виявлення дефектів у програмному коді є нижчою від раніше запланованих термінів;</Label>
                             <Label VerticalAlignment="Center" Grid.Row="11" Grid.Column="0" Height="30" FontSize="10">поява дефектних системних компонент, які використовують для розроблення ПЗ;</Label>
                             <Label x:Name="TechSum" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0</Label>
+
                             <Label x:Name="TechPercent1" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0%</Label>
-                            <Label x:Name="TechLabel1" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel2" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel3" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel4" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel5" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel6" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel7" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel8" Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel9" Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel10" Grid.Column="1" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="TechLabel11" Grid.Column="1" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+
+                            <ComboBox x:Name="TechLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel7" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel8" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel9" Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel10" Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="TechLabel11" Grid.Row="11" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
                         </Grid>
                     </TabItem>
 
@@ -212,13 +301,35 @@
                             <Label VerticalAlignment="Center" Grid.Row="7" Grid.Column="0" Height="30" FontSize="10">реорганізація команди виконавців у компанії-розробника ПЗ;</Label>
                             <Label x:Name="CostSum" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0</Label>
                             <Label x:Name="CostPercent1" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0%</Label>
-                            <Label x:Name="CostLabel1" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="CostLabel2" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="CostLabel3" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="CostLabel4" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="CostLabel5" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="CostLabel6" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="CostLabel7" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+
+                            <ComboBox x:Name="CostLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="CostLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="CostLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="CostLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="CostLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="CostLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="CostLabel7" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
                         </Grid>
                     </TabItem>
                     <TabItem Header="План. Риз. Под">
@@ -252,15 +363,43 @@
                             <Label VerticalAlignment="Center" Grid.Row="9" Grid.Column="0" Height="30" FontSize="10">поява на ринку більш конкурентоздатного ПЗ;</Label>
                             <Label x:Name="PlanSum" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0</Label>
                             <Label x:Name="PlanPercent1" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0%</Label>
-                            <Label x:Name="PlanLabel1" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel2" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel3" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel4" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel5" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel6" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel7" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel8" Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="PlanLabel9" Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+
+                            <ComboBox x:Name="PlanLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel7" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel8" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="PlanLabel9" Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
                         </Grid>
                     </TabItem>
                     <TabItem Header="Реал. Риз. Под">
@@ -305,20 +444,63 @@
                             <Label VerticalAlignment="Center" Grid.Row="14" Grid.Column="0" Height="30" FontSize="10">недостатній професійний рівень представників від компанії-замовника ПЗ.</Label>
                             <Label x:Name="RealSum" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0</Label>
                             <Label x:Name="RealPercent1" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">0%</Label>
-                            <Label x:Name="RealLabel1" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel2" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel3" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel4" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel5" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel6" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel7" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel8" Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel9" Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel10" Grid.Column="1" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel11" Grid.Column="1" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel12" Grid.Column="1" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel13" Grid.Column="1" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
-                            <Label x:Name="RealLabel14" Grid.Column="1" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+
+                            <ComboBox x:Name="RealLabel1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel5" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel6" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel7" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel8" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel9" Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel10" Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel11" Grid.Row="11" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel12" Grid.Row="12" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel13" Grid.Row="13" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
+                            <ComboBox x:Name="RealLabel14" Grid.Row="14" Grid.Column="1" VerticalAlignment="Center" Width="50" SelectedIndex="0" SelectionChanged="DataLabel_SelectionChanged">
+                                <ComboBoxItem Content="0"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
                             <Label x:Name="GeneralSum" Grid.Column="1" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Center">AllRisks%</Label>
                             <Label x:Name="AllRiskPercent" ContentStringFormat="{}{0:0.##'%'}" Grid.Column="2" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Center">0%</Label>
                         </Grid>
@@ -327,7 +509,517 @@
                 </TabControl>
             </TabItem>
             <TabItem Header="Етап 2">
+                <TabControl>
+                    <TabItem Header="Table 1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.2*"></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition Height="2.2*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="38*"></ColumnDefinition>
+                                        <ColumnDefinition Width="55*"></ColumnDefinition>
+                                        <ColumnDefinition Width="55*"></ColumnDefinition>
+                                        <ColumnDefinition Width="13*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="1" HorizontalAlignment="Center">Оцінки експертів у діапазоні [0...1]</Label>
+                                    <Label Grid.Column="2" HorizontalAlignment="Center">Оцінки експертів з урахуванням їхньої вагомості</Label>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="0.9*"></ColumnDefinition>
+                                        <ColumnDefinition Width="5*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Label Grid.Row="0" Grid.Column="3">1</Label>
+                                    <Label Grid.Row="0" Grid.Column="4">2</Label>
+                                    <Label Grid.Row="0" Grid.Column="5">3</Label>
+                                    <Label Grid.Row="0" Grid.Column="6">4</Label>
+                                    <Label Grid.Row="0" Grid.Column="7">5</Label>
+                                    <Label Grid.Row="0" Grid.Column="8">6</Label>
+                                    <Label Grid.Row="0" Grid.Column="9">7</Label>
+                                    <Label Grid.Row="0" Grid.Column="10">8</Label>
+                                    <Label Grid.Row="0" Grid.Column="11">9</Label>
+                                    <Label Grid.Row="0" Grid.Column="12">10</Label>
+                                    <Label Grid.Row="0" Grid.Column="13">1</Label>
+                                    <Label Grid.Row="0" Grid.Column="14">2</Label>
+                                    <Label Grid.Row="0" Grid.Column="15">3</Label>
+                                    <Label Grid.Row="0" Grid.Column="16">4</Label>
+                                    <Label Grid.Row="0" Grid.Column="17">5</Label>
+                                    <Label Grid.Row="0" Grid.Column="18">6</Label>
+                                    <Label Grid.Row="0" Grid.Column="19">7</Label>
+                                    <Label Grid.Row="0" Grid.Column="20">8</Label>
+                                    <Label Grid.Row="0" Grid.Column="21">9</Label>
+                                    <Label Grid.Row="0" Grid.Column="22">10</Label>
+                                    <Label Grid.Row="1" Grid.Column="1" FontWeight="Bold">Множина настання технічних ризикових подій</Label>
+                                    <Label x:Name="ExpGrade1" Grid.Row="1" Grid.Column="3">9</Label>
+                                    <Label x:Name="ExpGrade2" Grid.Row="1" Grid.Column="4">6</Label>
+                                    <Label x:Name="ExpGrade3" Grid.Row="1" Grid.Column="5">8</Label>
+                                    <Label x:Name="ExpGrade4" Grid.Row="1" Grid.Column="6">7</Label>
+                                    <Label x:Name="ExpGrade5" Grid.Row="1" Grid.Column="7">3</Label>
+                                    <Label x:Name="ExpGrade6" Grid.Row="1" Grid.Column="8">5</Label>
+                                    <Label x:Name="ExpGrade7" Grid.Row="1" Grid.Column="9">8</Label>
+                                    <Label x:Name="ExpGrade8" Grid.Row="1" Grid.Column="10">10</Label>
+                                    <Label x:Name="ExpGrade9" Grid.Row="1" Grid.Column="11">3</Label>
+                                    <Label x:Name="ExpGrade10" Grid.Row="1" Grid.Column="12">5</Label>
+                                    <Label x:Name="DExpGrade11" Grid.Row="1" Grid.Column="13"></Label>
+                                    <Label x:Name="DExpGrade12" Grid.Row="1" Grid.Column="14"></Label>
+                                    <Label x:Name="DExpGrade13" Grid.Row="1" Grid.Column="15"></Label>
+                                    <Label x:Name="DExpGrade14" Grid.Row="1" Grid.Column="16"></Label>
+                                    <Label x:Name="DExpGrade15" Grid.Row="1" Grid.Column="17"></Label>
+                                    <Label x:Name="DExpGrade16" Grid.Row="1" Grid.Column="18"></Label>
+                                    <Label x:Name="DExpGrade17" Grid.Row="1" Grid.Column="19"></Label>
+                                    <Label x:Name="DExpGrade18" Grid.Row="1" Grid.Column="20"></Label>
+                                    <Label x:Name="DExpGrade19" Grid.Row="1" Grid.Column="21"></Label>
+                                    <Label x:Name="DExpGrade20" Grid.Row="1" Grid.Column="22"></Label>
+                                </Grid>
+                            </Grid>
+                            <Grid x:Name="TableGrid1" Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.9*"></ColumnDefinition>
+                                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0" Grid.Column="1">затримки у постачанні обладнання, необхідного для підтримки процесу розроблення ПЗ;</Label>
+                                <Label Grid.Row="1" Grid.Column="1">затримки у постачанні інструментальних засобів, необхідних для підтримки процесу розроблення ПЗ;</Label>
+                                <Label Grid.Row="2" Grid.Column="1">небажання команди виконавців використовувати інструментальні засоби для підтримки процесу розроблення ПЗ;</Label>
+                                <Label Grid.Row="3" Grid.Column="1">формування запитів на більш потужні інструментальні засоби розроблення ПЗ;</Label>
+                                <Label Grid.Row="4" Grid.Column="1">відмова команди виконавців від CASE-засобів розроблення ПЗ;</Label>
+                                <Label Grid.Row="5" Grid.Column="1">неефективність програмного коду, згенерованого CASE-засобами розроблення ПЗ;</Label>
+                                <Label Grid.Row="6" Grid.Column="1">неможливість інтеграції CASE-засобів з іншими інструментальними засобами для підтримки процесу розроблення ПЗ;</Label>
+                                <Label Grid.Row="7" Grid.Column="1">недостатня продуктивність баз(и) даних для підтримки процесу розроблення ПЗ;</Label>
+                                <Label Grid.Row="8" Grid.Column="1">програмні компоненти, які використовують повторно в ПЗ, мають дефекти та обмежені функціональні можливості;</Label>
+                                <Label Grid.Row="9" Grid.Column="1">швидкість виявлення дефектів у програмному коді є нижчою від раніше запланованих термінів;</Label>
+                                <Label Grid.Row="10" Grid.Column="1">поява дефектних системних компонент, які використовують для розроблення ПЗ;</Label>
 
+                                <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">1</Label>
+                                <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">2</Label>
+                                <Label Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">3</Label>
+                                <Label Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">4</Label>
+                                <Label Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">5</Label>
+                                <Label Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">6</Label>
+                                <Label Grid.Row="6" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">7</Label>
+                                <Label Grid.Row="7" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">8</Label>
+                                <Label Grid.Row="8" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">9</Label>
+                                <Label Grid.Row="9" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">10</Label>
+                                <Label Grid.Row="10" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">11</Label>
+
+                                <Label x:Name="TechValue1" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue2" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue3" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue4" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue5" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue6" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue7" Grid.Row="6" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue8" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue9" Grid.Row="8" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue10" Grid.Row="9" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechValue11" Grid.Row="10" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+
+                                <Label x:Name="TechRes1" Grid.Row="0" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes2" Grid.Row="1" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes3" Grid.Row="2" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes4" Grid.Row="3" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes5" Grid.Row="4" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes6" Grid.Row="5" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes7" Grid.Row="6" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes8" Grid.Row="7" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes9" Grid.Row="8" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes10" Grid.Row="9" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                                <Label x:Name="TechRes11" Grid.Row="10" Grid.Column="23" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+
+                                <ComboBox x:Name="TechState1" Grid.Row="0" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState2" Grid.Row="1" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState3" Grid.Row="2" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState4" Grid.Row="3" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState5" Grid.Row="4" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState6" Grid.Row="5" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState7" Grid.Row="6" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState8" Grid.Row="7" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState9" Grid.Row="8" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState10" Grid.Row="9" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+                                <ComboBox x:Name="TechState11" Grid.Row="10" Grid.Column="24" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True">
+                                    <ComboBoxItem Content="VeryLow"/>
+                                    <ComboBoxItem Content="Low"/>
+                                    <ComboBoxItem Content="Normal"/>
+                                    <ComboBoxItem Content="High"/>
+                                    <ComboBoxItem Content="VeryHigh"/>
+                                </ComboBox>
+
+                                <Label x:Name="R0C3Label" Grid.Row="0" Grid.Column="3"></Label>
+                                <Label x:Name="R0C4Label" Grid.Row="0" Grid.Column="4"></Label>
+                                <Label x:Name="R0C5Label" Grid.Row="0" Grid.Column="5"></Label>
+                                <Label x:Name="R0C6Label" Grid.Row="0" Grid.Column="6"></Label>
+                                <Label x:Name="R0C7Label" Grid.Row="0" Grid.Column="7"></Label>
+                                <Label x:Name="R0C8Label" Grid.Row="0" Grid.Column="8"></Label>
+                                <Label x:Name="R0C9Label" Grid.Row="0" Grid.Column="9"></Label>
+                                <Label x:Name="R0C10Label" Grid.Row="0" Grid.Column="10"></Label>
+                                <Label x:Name="R0C11Label" Grid.Row="0" Grid.Column="11"></Label>
+                                <Label x:Name="R0C12Label" Grid.Row="0" Grid.Column="12"></Label>
+
+                                <Label x:Name="R1C3Label" Grid.Row="1" Grid.Column="3"></Label>
+                                <Label x:Name="R1C4Label" Grid.Row="1" Grid.Column="4"></Label>
+                                <Label x:Name="R1C5Label" Grid.Row="1" Grid.Column="5"></Label>
+                                <Label x:Name="R1C6Label" Grid.Row="1" Grid.Column="6"></Label>
+                                <Label x:Name="R1C7Label" Grid.Row="1" Grid.Column="7"></Label>
+                                <Label x:Name="R1C8Label" Grid.Row="1" Grid.Column="8"></Label>
+                                <Label x:Name="R1C9Label" Grid.Row="1" Grid.Column="9"></Label>
+                                <Label x:Name="R1C10Label" Grid.Row="1" Grid.Column="10"></Label>
+                                <Label x:Name="R1C11Label" Grid.Row="1" Grid.Column="11"></Label>
+                                <Label x:Name="R1C12Label" Grid.Row="1" Grid.Column="12"></Label>
+
+                                <Label x:Name="R2C3Label" Grid.Row="2" Grid.Column="3"></Label>
+                                <Label x:Name="R2C4Label" Grid.Row="2" Grid.Column="4"></Label>
+                                <Label x:Name="R2C5Label" Grid.Row="2" Grid.Column="5"></Label>
+                                <Label x:Name="R2C6Label" Grid.Row="2" Grid.Column="6"></Label>
+                                <Label x:Name="R2C7Label" Grid.Row="2" Grid.Column="7"></Label>
+                                <Label x:Name="R2C8Label" Grid.Row="2" Grid.Column="8"></Label>
+                                <Label x:Name="R2C9Label" Grid.Row="2" Grid.Column="9"></Label>
+                                <Label x:Name="R2C10Label" Grid.Row="2" Grid.Column="10"></Label>
+                                <Label x:Name="R2C11Label" Grid.Row="2" Grid.Column="11"></Label>
+                                <Label x:Name="R2C12Label" Grid.Row="2" Grid.Column="12"></Label>
+
+                                <Label x:Name="R3C3Label" Grid.Row="3" Grid.Column="3"></Label>
+                                <Label x:Name="R3C4Label" Grid.Row="3" Grid.Column="4"></Label>
+                                <Label x:Name="R3C5Label" Grid.Row="3" Grid.Column="5"></Label>
+                                <Label x:Name="R3C6Label" Grid.Row="3" Grid.Column="6"></Label>
+                                <Label x:Name="R3C7Label" Grid.Row="3" Grid.Column="7"></Label>
+                                <Label x:Name="R3C8Label" Grid.Row="3" Grid.Column="8"></Label>
+                                <Label x:Name="R3C9Label" Grid.Row="3" Grid.Column="9"></Label>
+                                <Label x:Name="R3C10Label" Grid.Row="3" Grid.Column="10"></Label>
+                                <Label x:Name="R3C11Label" Grid.Row="3" Grid.Column="11"></Label>
+                                <Label x:Name="R3C12Label" Grid.Row="3" Grid.Column="12"></Label>
+
+                                <Label x:Name="R4C3Label" Grid.Row="4" Grid.Column="3"></Label>
+                                <Label x:Name="R4C4Label" Grid.Row="4" Grid.Column="4"></Label>
+                                <Label x:Name="R4C5Label" Grid.Row="4" Grid.Column="5"></Label>
+                                <Label x:Name="R4C6Label" Grid.Row="4" Grid.Column="6"></Label>
+                                <Label x:Name="R4C7Label" Grid.Row="4" Grid.Column="7"></Label>
+                                <Label x:Name="R4C8Label" Grid.Row="4" Grid.Column="8"></Label>
+                                <Label x:Name="R4C9Label" Grid.Row="4" Grid.Column="9"></Label>
+                                <Label x:Name="R4C10Label" Grid.Row="4" Grid.Column="10"></Label>
+                                <Label x:Name="R4C11Label" Grid.Row="4" Grid.Column="11"></Label>
+                                <Label x:Name="R4C12Label" Grid.Row="4" Grid.Column="12"></Label>
+
+                                <Label x:Name="R5C3Label" Grid.Row="5" Grid.Column="3"></Label>
+                                <Label x:Name="R5C4Label" Grid.Row="5" Grid.Column="4"></Label>
+                                <Label x:Name="R5C5Label" Grid.Row="5" Grid.Column="5"></Label>
+                                <Label x:Name="R5C6Label" Grid.Row="5" Grid.Column="6"></Label>
+                                <Label x:Name="R5C7Label" Grid.Row="5" Grid.Column="7"></Label>
+                                <Label x:Name="R5C8Label" Grid.Row="5" Grid.Column="8"></Label>
+                                <Label x:Name="R5C9Label" Grid.Row="5" Grid.Column="9"></Label>
+                                <Label x:Name="R5C10Label" Grid.Row="5" Grid.Column="10"></Label>
+                                <Label x:Name="R5C11Label" Grid.Row="5" Grid.Column="11"></Label>
+                                <Label x:Name="R5C12Label" Grid.Row="5" Grid.Column="12"></Label>
+
+                                <Label x:Name="R6C3Label" Grid.Row="6" Grid.Column="3"></Label>
+                                <Label x:Name="R6C4Label" Grid.Row="6" Grid.Column="4"></Label>
+                                <Label x:Name="R6C5Label" Grid.Row="6" Grid.Column="5"></Label>
+                                <Label x:Name="R6C6Label" Grid.Row="6" Grid.Column="6"></Label>
+                                <Label x:Name="R6C7Label" Grid.Row="6" Grid.Column="7"></Label>
+                                <Label x:Name="R6C8Label" Grid.Row="6" Grid.Column="8"></Label>
+                                <Label x:Name="R6C9Label" Grid.Row="6" Grid.Column="9"></Label>
+                                <Label x:Name="R6C10Label" Grid.Row="6" Grid.Column="10"></Label>
+                                <Label x:Name="R6C11Label" Grid.Row="6" Grid.Column="11"></Label>
+                                <Label x:Name="R6C12Label" Grid.Row="6" Grid.Column="12"></Label>
+
+                                <Label x:Name="R7C3Label" Grid.Row="6" Grid.Column="3"></Label>
+                                <Label x:Name="R7C4Label" Grid.Row="6" Grid.Column="4"></Label>
+                                <Label x:Name="R7C5Label" Grid.Row="6" Grid.Column="5"></Label>
+                                <Label x:Name="R7C6Label" Grid.Row="6" Grid.Column="6"></Label>
+                                <Label x:Name="R7C7Label" Grid.Row="6" Grid.Column="7"></Label>
+                                <Label x:Name="R7C8Label" Grid.Row="6" Grid.Column="8"></Label>
+                                <Label x:Name="R7C9Label" Grid.Row="6" Grid.Column="9"></Label>
+                                <Label x:Name="R7C10Label" Grid.Row="6" Grid.Column="10"></Label>
+                                <Label x:Name="R7C11Label" Grid.Row="6" Grid.Column="11"></Label>
+                                <Label x:Name="R7C12Label" Grid.Row="6" Grid.Column="12"></Label>
+
+                                <Label x:Name="R8C3Label" Grid.Row="6" Grid.Column="3"></Label>
+                                <Label x:Name="R8C4Label" Grid.Row="6" Grid.Column="4"></Label>
+                                <Label x:Name="R8C5Label" Grid.Row="6" Grid.Column="5"></Label>
+                                <Label x:Name="R8C6Label" Grid.Row="6" Grid.Column="6"></Label>
+                                <Label x:Name="R8C7Label" Grid.Row="6" Grid.Column="7"></Label>
+                                <Label x:Name="R8C8Label" Grid.Row="6" Grid.Column="8"></Label>
+                                <Label x:Name="R8C9Label" Grid.Row="6" Grid.Column="9"></Label>
+                                <Label x:Name="R8C10Label" Grid.Row="6" Grid.Column="10"></Label>
+                                <Label x:Name="R8C11Label" Grid.Row="6" Grid.Column="11"></Label>
+                                <Label x:Name="R8C12Label" Grid.Row="6" Grid.Column="12"></Label>
+
+                                <Label x:Name="R9C3Label" Grid.Row="6" Grid.Column="3"></Label>
+                                <Label x:Name="R9C4Label" Grid.Row="6" Grid.Column="4"></Label>
+                                <Label x:Name="R9C5Label" Grid.Row="6" Grid.Column="5"></Label>
+                                <Label x:Name="R9C6Label" Grid.Row="6" Grid.Column="6"></Label>
+                                <Label x:Name="R9C7Label" Grid.Row="6" Grid.Column="7"></Label>
+                                <Label x:Name="R9C8Label" Grid.Row="6" Grid.Column="8"></Label>
+                                <Label x:Name="R9C9Label" Grid.Row="6" Grid.Column="9"></Label>
+                                <Label x:Name="R9C10Label" Grid.Row="6" Grid.Column="10"></Label>
+                                <Label x:Name="R9C11Label" Grid.Row="6" Grid.Column="11"></Label>
+                                <Label x:Name="R9C12Label" Grid.Row="6" Grid.Column="12"></Label>
+
+                                <Label x:Name="R10C3Label" Grid.Row="10" Grid.Column="3"></Label>
+                                <Label x:Name="R10C4Label" Grid.Row="10" Grid.Column="4"></Label>
+                                <Label x:Name="R10C5Label" Grid.Row="10" Grid.Column="5"></Label>
+                                <Label x:Name="R10C6Label" Grid.Row="10" Grid.Column="6"></Label>
+                                <Label x:Name="R10C7Label" Grid.Row="10" Grid.Column="7"></Label>
+                                <Label x:Name="R10C8Label" Grid.Row="10" Grid.Column="8"></Label>
+                                <Label x:Name="R10C9Label" Grid.Row="10" Grid.Column="9"></Label>
+                                <Label x:Name="R10C10Label" Grid.Row="10" Grid.Column="10"></Label>
+                                <Label x:Name="R10C11Label" Grid.Row="10" Grid.Column="11"></Label>
+                                <Label x:Name="R10C12Label" Grid.Row="10" Grid.Column="12"></Label>
+
+                                <Label x:Name="R0C3LabelP2" Grid.Row="0" Grid.Column="13"></Label>
+                                <Label x:Name="R0C4LabelP2" Grid.Row="0" Grid.Column="14"></Label>
+                                <Label x:Name="R0C5LabelP2" Grid.Row="0" Grid.Column="15"></Label>
+                                <Label x:Name="R0C6LabelP2" Grid.Row="0" Grid.Column="16"></Label>
+                                <Label x:Name="R0C7LabelP2" Grid.Row="0" Grid.Column="17"></Label>
+                                <Label x:Name="R0C8LabelP2" Grid.Row="0" Grid.Column="18"></Label>
+                                <Label x:Name="R0C9LabelP2" Grid.Row="0" Grid.Column="19"></Label>
+                                <Label x:Name="R0C10LabelP2" Grid.Row="0" Grid.Column="20"></Label>
+                                <Label x:Name="R0C11LabelP2" Grid.Row="0" Grid.Column="21"></Label>
+                                <Label x:Name="R0C12LabelP2" Grid.Row="0" Grid.Column="22"></Label>
+
+                                <Label x:Name="R1C3LabelP2" Grid.Row="1" Grid.Column="13"></Label>
+                                <Label x:Name="R1C4LabelP2" Grid.Row="1" Grid.Column="14"></Label>
+                                <Label x:Name="R1C5LabelP2" Grid.Row="1" Grid.Column="15"></Label>
+                                <Label x:Name="R1C6LabelP2" Grid.Row="1" Grid.Column="16"></Label>
+                                <Label x:Name="R1C7LabelP2" Grid.Row="1" Grid.Column="17"></Label>
+                                <Label x:Name="R1C8LabelP2" Grid.Row="1" Grid.Column="18"></Label>
+                                <Label x:Name="R1C9LabelP2" Grid.Row="1" Grid.Column="19"></Label>
+                                <Label x:Name="R1C10LabelP2" Grid.Row="1" Grid.Column="20"></Label>
+                                <Label x:Name="R1C11LabelP2" Grid.Row="1" Grid.Column="21"></Label>
+                                <Label x:Name="R1C12LabelP2" Grid.Row="1" Grid.Column="22"></Label>
+
+                                <Label x:Name="R2C3LabelP2" Grid.Row="2" Grid.Column="13"></Label>
+                                <Label x:Name="R2C4LabelP2" Grid.Row="2" Grid.Column="14"></Label>
+                                <Label x:Name="R2C5LabelP2" Grid.Row="2" Grid.Column="15"></Label>
+                                <Label x:Name="R2C6LabelP2" Grid.Row="2" Grid.Column="16"></Label>
+                                <Label x:Name="R2C7LabelP2" Grid.Row="2" Grid.Column="17"></Label>
+                                <Label x:Name="R2C8LabelP2" Grid.Row="2" Grid.Column="18"></Label>
+                                <Label x:Name="R2C9LabelP2" Grid.Row="2" Grid.Column="19"></Label>
+                                <Label x:Name="R2C10LabelP2" Grid.Row="2" Grid.Column="20"></Label>
+                                <Label x:Name="R2C11LabelP2" Grid.Row="2" Grid.Column="21"></Label>
+                                <Label x:Name="R2C12LabelP2" Grid.Row="2" Grid.Column="22"></Label>
+
+                                <Label x:Name="R3C3LabelP2" Grid.Row="3" Grid.Column="13"></Label>
+                                <Label x:Name="R3C4LabelP2" Grid.Row="3" Grid.Column="14"></Label>
+                                <Label x:Name="R3C5LabelP2" Grid.Row="3" Grid.Column="15"></Label>
+                                <Label x:Name="R3C6LabelP2" Grid.Row="3" Grid.Column="16"></Label>
+                                <Label x:Name="R3C7LabelP2" Grid.Row="3" Grid.Column="17"></Label>
+                                <Label x:Name="R3C8LabelP2" Grid.Row="3" Grid.Column="18"></Label>
+                                <Label x:Name="R3C9LabelP2" Grid.Row="3" Grid.Column="19"></Label>
+                                <Label x:Name="R3C10LabelP2" Grid.Row="3" Grid.Column="20"></Label>
+                                <Label x:Name="R3C11LabelP2" Grid.Row="3" Grid.Column="21"></Label>
+                                <Label x:Name="R3C12LabelP2" Grid.Row="3" Grid.Column="22"></Label>
+
+                                <Label x:Name="R4C3LabelP2" Grid.Row="4" Grid.Column="13"></Label>
+                                <Label x:Name="R4C4LabelP2" Grid.Row="4" Grid.Column="14"></Label>
+                                <Label x:Name="R4C5LabelP2" Grid.Row="4" Grid.Column="15"></Label>
+                                <Label x:Name="R4C6LabelP2" Grid.Row="4" Grid.Column="16"></Label>
+                                <Label x:Name="R4C7LabelP2" Grid.Row="4" Grid.Column="17"></Label>
+                                <Label x:Name="R4C8LabelP2" Grid.Row="4" Grid.Column="18"></Label>
+                                <Label x:Name="R4C9LabelP2" Grid.Row="4" Grid.Column="19"></Label>
+                                <Label x:Name="R4C10LabelP2" Grid.Row="4" Grid.Column="20"></Label>
+                                <Label x:Name="R4C11LabelP2" Grid.Row="4" Grid.Column="21"></Label>
+                                <Label x:Name="R4C12LabelP2" Grid.Row="4" Grid.Column="22"></Label>
+
+                                <Label x:Name="R5C3LabelP2" Grid.Row="5" Grid.Column="13"></Label>
+                                <Label x:Name="R5C4LabelP2" Grid.Row="5" Grid.Column="14"></Label>
+                                <Label x:Name="R5C5LabelP2" Grid.Row="5" Grid.Column="15"></Label>
+                                <Label x:Name="R5C6LabelP2" Grid.Row="5" Grid.Column="16"></Label>
+                                <Label x:Name="R5C7LabelP2" Grid.Row="5" Grid.Column="17"></Label>
+                                <Label x:Name="R5C8LabelP2" Grid.Row="5" Grid.Column="18"></Label>
+                                <Label x:Name="R5C9LabelP2" Grid.Row="5" Grid.Column="19"></Label>
+                                <Label x:Name="R5C10LabelP2" Grid.Row="5" Grid.Column="20"></Label>
+                                <Label x:Name="R5C11LabelP2" Grid.Row="5" Grid.Column="21"></Label>
+                                <Label x:Name="R5C12LabelP2" Grid.Row="5" Grid.Column="22"></Label>
+
+                                <Label x:Name="R6C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
+                                <Label x:Name="R6C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
+                                <Label x:Name="R6C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
+                                <Label x:Name="R6C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
+                                <Label x:Name="R6C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
+                                <Label x:Name="R6C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
+                                <Label x:Name="R6C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
+                                <Label x:Name="R6C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
+                                <Label x:Name="R6C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
+                                <Label x:Name="R6C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+
+                                <Label x:Name="R7C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
+                                <Label x:Name="R7C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
+                                <Label x:Name="R7C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
+                                <Label x:Name="R7C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
+                                <Label x:Name="R7C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
+                                <Label x:Name="R7C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
+                                <Label x:Name="R7C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
+                                <Label x:Name="R7C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
+                                <Label x:Name="R7C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
+                                <Label x:Name="R7C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+
+                                <Label x:Name="R8C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
+                                <Label x:Name="R8C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
+                                <Label x:Name="R8C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
+                                <Label x:Name="R8C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
+                                <Label x:Name="R8C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
+                                <Label x:Name="R8C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
+                                <Label x:Name="R8C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
+                                <Label x:Name="R8C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
+                                <Label x:Name="R8C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
+                                <Label x:Name="R8C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+
+                                <Label x:Name="R9C3LabelP2" Grid.Row="6" Grid.Column="13"></Label>
+                                <Label x:Name="R9C4LabelP2" Grid.Row="6" Grid.Column="14"></Label>
+                                <Label x:Name="R9C5LabelP2" Grid.Row="6" Grid.Column="15"></Label>
+                                <Label x:Name="R9C6LabelP2" Grid.Row="6" Grid.Column="16"></Label>
+                                <Label x:Name="R9C7LabelP2" Grid.Row="6" Grid.Column="17"></Label>
+                                <Label x:Name="R9C8LabelP2" Grid.Row="6" Grid.Column="18"></Label>
+                                <Label x:Name="R9C9LabelP2" Grid.Row="6" Grid.Column="19"></Label>
+                                <Label x:Name="R9C10LabelP2" Grid.Row="6" Grid.Column="20"></Label>
+                                <Label x:Name="R9C11LabelP2" Grid.Row="6" Grid.Column="21"></Label>
+                                <Label x:Name="R9C12LabelP2" Grid.Row="6" Grid.Column="22"></Label>
+
+                                <Label x:Name="R10C3LabelP2" Grid.Row="10" Grid.Column="13"></Label>
+                                <Label x:Name="R10C4LabelP2" Grid.Row="10" Grid.Column="14"></Label>
+                                <Label x:Name="R10C5LabelP2" Grid.Row="10" Grid.Column="15"></Label>
+                                <Label x:Name="R10C6LabelP2" Grid.Row="10" Grid.Column="16"></Label>
+                                <Label x:Name="R10C7LabelP2" Grid.Row="10" Grid.Column="17"></Label>
+                                <Label x:Name="R10C8LabelP2" Grid.Row="10" Grid.Column="18"></Label>
+                                <Label x:Name="R10C9LabelP2" Grid.Row="10" Grid.Column="19"></Label>
+                                <Label x:Name="R10C10LabelP2" Grid.Row="10" Grid.Column="20"></Label>
+                                <Label x:Name="R10C11LabelP2" Grid.Row="10" Grid.Column="21"></Label>
+                                <Label x:Name="R10C12LabelP2" Grid.Row="10" Grid.Column="22"></Label>
+                            </Grid>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
             </TabItem>
             <TabItem Header="Етап 3">
                 <Grid>
@@ -378,7 +1070,7 @@
                     <Label Grid.Row="17" Grid.Column="0" Content="Повторне використання придатних компонент ПЗ, які були розроблені для інших програмних проектіву"/>
                     <Label Grid.Row="18" Grid.Column="0" Content="Аналіз доцільності розроблення даного ПЗ"/>
 
-                    
+
 
                     <ComboBox x:Name="PathOfFight0" Grid.Row="0" Grid.Column="1">
                         <ListBoxItem Content="Пом'якшення"/>
@@ -387,10 +1079,10 @@
                         <ListBoxItem Content="Передача"/>
                     </ComboBox>
                     <ComboBox x:Name="PathOfFight1" Grid.Row="1" Grid.Column="1">
-                    <ListBoxItem Content="Пом'якшення"/>
-                    <ListBoxItem Content="Прийняття"/>
-                    <ListBoxItem Content="Ухилення"/>
-                    <ListBoxItem Content="Передача"/>
+                        <ListBoxItem Content="Пом'якшення"/>
+                        <ListBoxItem Content="Прийняття"/>
+                        <ListBoxItem Content="Ухилення"/>
+                        <ListBoxItem Content="Передача"/>
                     </ComboBox>
                     <ComboBox x:Name="PathOfFight2" Grid.Row="2" Grid.Column="1">
                         <ListBoxItem Content="Пом'якшення"/>
