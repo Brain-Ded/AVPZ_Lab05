@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:AVPZ_Lab05"
              StartupUri="Stage1.xaml">
     <Application.Resources>
-         
+          
     </Application.Resources>
 </Application>
