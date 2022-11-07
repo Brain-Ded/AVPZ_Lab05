@@ -188,42 +188,26 @@ namespace AVPZ_Lab05
 
 
             //Stage3
-            PathOfFight0.Content = Fight(rand.Next(1, 5));
-            PathOfFight1.Content = Fight(rand.Next(1, 5));
-            PathOfFight2.Content = Fight(rand.Next(1, 5));
-            PathOfFight3.Content = Fight(rand.Next(1, 5));
-            PathOfFight4.Content = Fight(rand.Next(1, 5));
-            PathOfFight5.Content = Fight(rand.Next(1, 5));
-            PathOfFight6.Content = Fight(rand.Next(1, 5));
-            PathOfFight7.Content = Fight(rand.Next(1, 5));
-            PathOfFight8.Content = Fight(rand.Next(1, 5));
-            PathOfFight9.Content = Fight(rand.Next(1, 5));
-            PathOfFight10.Content = Fight(rand.Next(1, 5));
-            PathOfFight11.Content = Fight(rand.Next(1, 5));
-            PathOfFight12.Content = Fight(rand.Next(1, 5));
-            PathOfFight13.Content = Fight(rand.Next(1, 5));
-            PathOfFight14.Content = Fight(rand.Next(1, 5));
-            PathOfFight15.Content = Fight(rand.Next(1, 5));
-            PathOfFight16.Content = Fight(rand.Next(1, 5));
-            PathOfFight17.Content = Fight(rand.Next(1, 5));
-            PathOfFight18.Content = Fight(rand.Next(1, 5));
-        }
-
-        private string Fight(int num)
-        {
-            switch (num)
-            {
-                case 1:
-                    return "Пом'якшення";
-                case 2:
-                    return "Прийняття";
-                case 3:
-                    return "Ухилення";
-                case 4:
-                    return "Передача";
-                default:
-                    return "";
-            }
+            PathOfFight0.SelectedIndex = rand.Next(0, 4);
+            PathOfFight0.SelectedIndex = rand.Next(0, 4);
+            PathOfFight1.SelectedIndex = rand.Next(0, 4);
+            PathOfFight2.SelectedIndex = rand.Next(0, 4);
+            PathOfFight3.SelectedIndex = rand.Next(0, 4);
+            PathOfFight4.SelectedIndex = rand.Next(0, 4);
+            PathOfFight5.SelectedIndex = rand.Next(0, 4);
+            PathOfFight6.SelectedIndex = rand.Next(0, 4);
+            PathOfFight7.SelectedIndex = rand.Next(0, 4);
+            PathOfFight8.SelectedIndex = rand.Next(0, 4);
+            PathOfFight9.SelectedIndex = rand.Next(0, 4);
+            PathOfFight10.SelectedIndex = rand.Next(0, 4);
+            PathOfFight11.SelectedIndex = rand.Next(0, 4);
+            PathOfFight12.SelectedIndex = rand.Next(0, 4);
+            PathOfFight13.SelectedIndex = rand.Next(0, 4);
+            PathOfFight14.SelectedIndex = rand.Next(0, 4);
+            PathOfFight15.SelectedIndex = rand.Next(0, 4);
+            PathOfFight16.SelectedIndex = rand.Next(0, 4);
+            PathOfFight17.SelectedIndex = rand.Next(0, 4);
+            PathOfFight18.SelectedIndex = rand.Next(0, 4);
         }
     }
 }
