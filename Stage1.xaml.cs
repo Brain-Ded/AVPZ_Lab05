@@ -185,6 +185,45 @@ namespace AVPZ_Lab05
 
             AllRiskPercent.Content = (Convert.ToInt32(TechSum.Content) + Convert.ToInt32(CostSum.Content)
                                    + Convert.ToInt32(PlanSum.Content) + Convert.ToInt32(RealSum.Content)) / Max2 * 100;
+
+
+            //Stage3
+            PathOfFight0.Content = Fight(rand.Next(1, 5));
+            PathOfFight1.Content = Fight(rand.Next(1, 5));
+            PathOfFight2.Content = Fight(rand.Next(1, 5));
+            PathOfFight3.Content = Fight(rand.Next(1, 5));
+            PathOfFight4.Content = Fight(rand.Next(1, 5));
+            PathOfFight5.Content = Fight(rand.Next(1, 5));
+            PathOfFight6.Content = Fight(rand.Next(1, 5));
+            PathOfFight7.Content = Fight(rand.Next(1, 5));
+            PathOfFight8.Content = Fight(rand.Next(1, 5));
+            PathOfFight9.Content = Fight(rand.Next(1, 5));
+            PathOfFight10.Content = Fight(rand.Next(1, 5));
+            PathOfFight11.Content = Fight(rand.Next(1, 5));
+            PathOfFight12.Content = Fight(rand.Next(1, 5));
+            PathOfFight13.Content = Fight(rand.Next(1, 5));
+            PathOfFight14.Content = Fight(rand.Next(1, 5));
+            PathOfFight15.Content = Fight(rand.Next(1, 5));
+            PathOfFight16.Content = Fight(rand.Next(1, 5));
+            PathOfFight17.Content = Fight(rand.Next(1, 5));
+            PathOfFight18.Content = Fight(rand.Next(1, 5));
+        }
+
+        private string Fight(int num)
+        {
+            switch (num)
+            {
+                case 1:
+                    return "Пом'якшення";
+                case 2:
+                    return "Прийняття";
+                case 3:
+                    return "Ухилення";
+                case 4:
+                    return "Передача";
+                default:
+                    return "";
+            }
         }
     }
 }

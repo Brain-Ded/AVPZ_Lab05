@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AVPZ_Lab05"
         mc:Ignorable="d"
-        Title="Stage1" Height="600" Width="800">
+        Title="Stage1" Height="600" Width="900">
     <Grid>
         <TabControl>
             <TabItem Header="Етап 1">
@@ -330,7 +330,76 @@
 
             </TabItem>
             <TabItem Header="Етап 3">
+                <Grid x:Name="Stag3Grid">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.15*"/>
+                    </Grid.ColumnDefinitions>
 
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Content="Попереднє навчання членів проектного колективу"/>
+                    <Label Grid.Row="1" Grid.Column="0" Content="Узгодження детального переліку вимог до ПЗ із замовником"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="Внесення узгодженого переліку вимог до ПЗ замовника в договір"/>
+                    <Label Grid.Row="3" Grid.Column="0" Content="Точне слідування вимогам замовника з узгодженого переліку вимог до ПЗ"/>
+                    <Label Grid.Row="4" Grid.Column="0" Content="Попередні дослідження ринку"/>
+                    <Label Grid.Row="5" Grid.Column="0" Content="Експертна оцінка програмного проекту досвідченим стороннім консультантом"/>
+                    <Label Grid.Row="6" Grid.Column="0" Content="Консультації досвідченого стороннього консультанта"/>
+                    <Label Grid.Row="7" Grid.Column="0" Content="Тренінг з вивчення необхідних інструментів розроблення ПЗ"/>
+                    <Label Grid.Row="8" Grid.Column="0" Content="Укладання договору страхування"/>
+                    <Label Grid.Row="9" Grid.Column="0" Content="Використання 'шаблонних' рішень з вдалих попередніх проектів при управлінні програмним проектом"/>
+                    <Label Grid.Row="10" Grid.Column="0" Content="Підготовка документів, які показують важливість даного проекту для досягнення фінансових цілей компанії-розробника"/>
+                    <Label Grid.Row="11" Grid.Column="0" Content="Реорганізація роботи проектного колективу так, щоб обов'язки та робота членів колективу перекривали один одного"/>
+                    <Label Grid.Row="12" Grid.Column="0" Content="Придбання (замовлення) частини компонент розроблюваного ПЗ"/>
+                    <Label Grid.Row="13" Grid.Column="0" Content="Заміна потенційно дефектних компонент розроблюваного ПЗ придбаними компонентами, які гарантують якість виконання роботи"/>
+                    <Label Grid.Row="14" Grid.Column="0" Content="Придбання більш продуктивної бази даних"/>
+                    <Label Grid.Row="15" Grid.Column="0" Content="Використання генератора програмного коду"/>
+                    <Label Grid.Row="16" Grid.Column="0" Content="Реорганізація роботи проектного колективу залежно від рівня труднощів виконання завдань та професійних рівнів розробників"/>
+                    <Label Grid.Row="17" Grid.Column="0" Content="Повторне використання придатних компонент ПЗ, які були розроблені для інших програмних проектіву"/>
+                    <Label Grid.Row="18" Grid.Column="0" Content="Аналіз доцільності розроблення даного ПЗ"/>
+
+
+
+                    <Label x:Name="PathOfFight0" Grid.Row="0" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight1" Grid.Row="1" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight2" Grid.Row="2" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight3" Grid.Row="3" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight4" Grid.Row="4" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight5" Grid.Row="5" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight6" Grid.Row="6" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight7" Grid.Row="7" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight8" Grid.Row="8" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight9" Grid.Row="9" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight10" Grid.Row="10" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight11" Grid.Row="11" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight12" Grid.Row="12" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight13" Grid.Row="13" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight14" Grid.Row="14" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight15" Grid.Row="15" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight16" Grid.Row="16" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight17" Grid.Row="17" Grid.Column="1"/>
+                    <Label x:Name="PathOfFight18" Grid.Row="18" Grid.Column="1"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Етап 4">
 
